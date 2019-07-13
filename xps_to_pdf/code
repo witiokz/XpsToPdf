@@ -1,0 +1,27 @@
+﻿Alternative
+//using (var xpsConverter = new Xps2Image(xpsFile))
+//{
+    //var images = xpsConverter.ToBitmap(new Parameters
+    //{
+    //    ImageType = ImageType.Png,
+    //    Dpi = 100
+    //});
+
+    //using (var doc = new PdfDocument())
+    //{
+    //    for(var i = 0; i < images.Count(); i++)
+    //    {
+    //        var image = images.ElementAt(i);
+    //        using (var ms = new MemoryStream())
+    //        {
+    //            image.Save(ms, ImageFormat.Png);
+    //            doc.Pages.Add(new PdfPage { Size = pageSize, Orientation = GetOrientation(image.Size.Width) });
+
+    //            var xgr = XGraphics.FromPdfPage(doc.Pages[i]);
+    //            var img = XImage.FromStream(ms);
+    //            xgr.DrawImage(img, 0, 0);
+    //        }
+    //    }
+
+    //    doc.Save(source);
+    //}
